@@ -1,0 +1,65 @@
+.page-4-gellry {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 2.3rem;
+  margin-top: 8rem;
+}
+.page-4-cards {
+  width: max-content;
+  margin-bottom: 4.6rem;
+}
+.propertise-box {
+  display: flex;
+  flex-direction: column;
+}
+.propertise-box h2 {
+  color: #151875;
+  font-size: 1.9rem;
+  font-weight: 500;
+  line-height: 1.2;
+  border-bottom: 2px solid #151875;
+  max-width: 12.2rem;
+  margin: 1.6rem 0;
+}
+.propertise-box span {
+  font-size: 1.2rem;
+  line-height: 2.1;
+  color: #7e81a2;
+  font-weight: 400;
+}
+.propertise-box img {
+  background: #e5e0fc;
+  margin-right: 0.5rem;
+}
+.for-yellow p {
+  color: #ffc107; 
+}
+.for-yellow span {
+  display: flex;
+  align-items: center;
+}
+.for-flex img {
+  background: none;
+  display: flex;
+}
+.for-flex span {
+  display: flex;
+  align-items: center;
+}
+.for-flex-in {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.propertise-box input {
+  width: 15rem;
+}
+.products-properties {
+  margin-top: 4.6rem;
+}
+.page-4-cards svg {
+  padding: 0.5rem;
+  border-radius: 50px;
+}
+.page-4-cards svg:hover {
+  background-color: #e5e0fc;
+}

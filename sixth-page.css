@@ -1,0 +1,158 @@
+.six-mean-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8rem;
+}
+.six-mean-nav a {
+  text-decoration: none;
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #1d3178;
+}
+.seperation a {
+  margin: 0 4.6rem;
+}
+.img-flex {
+  display: flex;
+  margin-bottom: 1.6rem;
+}
+.grid-6-text-box {
+  margin-left: 1.6rem;
+  margin-top: 6px;
+}
+
+.grid-6-text-box h4 {
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.grid-6-text-box span {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 200;
+  color: #a1a8c1;
+}
+.Products-box {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10.5rem;
+}
+/* .productsp-q-detile {
+  max-width: 78rem;
+} */
+.Products-p-q {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 2px solid #e1e1e4;
+  margin-top: 3.6rem;
+}
+.Products-p-q input {
+  width: 50px;
+  margin-left: 2.6rem;
+}
+.Quantity-box input {
+  border: 1px solid #a1a8c1;
+}
+.price-plain {
+  margin-left: 9.6rem;
+}
+.total-box,
+.price-plain {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #15245e;
+}
+.products-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3.4rem 0;
+}
+.products-btn button {
+  background-color: #fb2e86;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  padding: 1.2rem 2.9rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.card-1,
+.card-2 {
+  background-color: #f4f4fc;
+  padding: 1.6rem;
+  border-radius: 1px;
+  margin-top: 5.6rem;
+}
+.sub-total,
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #e8e6f1;
+}
+.sub-total span,
+.total span {
+  font-size: 1.6rem;
+  color: #15245e;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.total {
+  margin: 3.6rem 0;
+}
+.card-1 p {
+  font-size: 1.2rem;
+  margin: 1.6rem 0;
+  color: #8a91ab;
+  font-weight: 300;
+}
+.card-1 button {
+  background: #19d16f;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  padding: 1.6rem;
+  width: 27rem;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 400;
+  margin: 1.6rem 0;
+}
+.card-2 span {
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: #c5cbe3;
+  line-height: 1.6;
+  text-transform: lowercase;
+}
+.address,
+.point,
+.Postal-Code {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #c5cbe3;
+  margin: 1.6rem 0;
+}
+.address span,
+.point span,
+.Postal-Code span {
+  margin-bottom: 1rem;
+}
+.card-2-btn {
+  background-color: #fb2e86;
+  padding: 1rem 1.6rem;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2;
+}

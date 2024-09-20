@@ -1,0 +1,99 @@
+.page-8th-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4.6rem;
+  margin-bottom: 16rem;
+}
+.back-gorund {
+  background-color: #f8f8fd;
+  padding: 2.6rem;
+}
+.heading-flex,
+.input-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-8 {
+  padding: 1rem 1.6rem;
+  background-color: #fb2e86;
+  color: #fff;
+  border: none;
+  border-radius: 1.9px;
+  margin: 1.6rem 0;
+  margin-top: 10rem;
+}
+.form-box h2 {
+  font-size: 2.3rem;
+  color: #1d3178; 
+  line-height: 1.6;
+  font-weight: 600;
+}
+.heading-flex h3 {
+  font-size: 1.9rem;
+  color: #1d3178;
+  line-height: 1.6;
+  font-weight: 500;
+  margin: 2.3rem 0;
+}
+.heading-flex a {
+  font-size: 1.2rem;
+  color: #c1c8e1;
+  line-height: 1.6;
+  font-weight: 300;
+}
+.back-gorund form input {
+  border: none;
+  color: #c1c8e1;
+  line-height: 1.6;
+  padding: 0.5rem;
+  font-size: 1.6rem;
+}
+.form-box input {
+  background-color: #f8f8fd;
+  border-bottom: 2px solid #bfc6e0 !important;
+  color: #c1c8e1;
+}
+.check-span {
+  color: #8a91ab;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 200;
+  margin: 1.6rem 0;
+}
+.shoping-heading {
+  font-size: 2rem;
+  line-height: 1.6;
+  font-weight: 500;
+  color: #1d3178;
+  margin: 2rem 0;
+  margin-top: 7rem;
+}
+.input-flex input {
+  width: 32rem;
+}
+.option-span {
+  font-size: 1rem;
+  color: #1d3178;
+  line-height: 1.6;
+  font-weight: 300;
+  margin-bottom: 4.6rem;
+}
+.for-margin {
+  margin: 2.3rem 0;
+}
+.page-8th-grid .Products-p-q {
+  margin-top: 1rem;
+}
+.page-8th-cards {
+  margin-top: 9rem;
+}
+.page-8th-grid .card-1 {
+  margin-top: 1rem;
+}
+.page-8th-grid .card-1 .card-btn {
+  width: 100%;
+}
+.page-8th-grid .img-flex {
+  margin-bottom: 0.5rem;
+}

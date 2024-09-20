@@ -1,0 +1,116 @@
+.parent-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.099);
+  padding: 2.3rem;
+  margin: 10rem 0;
+  border-radius: 1.6rem;
+  align-items: center;
+}
+.small-img-grid img {
+  margin-bottom: 8px;
+}
+.text-box-page-5 {
+  margin-left: 3.6rem;
+}
+.text-box-page-5 h2, 
+h3,
+h4 {
+  color: #151875;
+}
+.text-box-page-5 h2 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.text-box-page-5 p {
+  color: #a9acc6;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 1.2rem 0;
+}
+.text-box-page-5 span {
+  font-size: 1.3rem;
+  margin: 1.2rem 0;
+}
+.text-box-page-5 h3 {
+  margin: 1.6rem 0;
+  font-size: 1.9rem;
+}
+
+.text-box-page-5 h4 {
+  font-size: 1.8rem;
+}
+.text-flex-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -3.6rem;
+}
+.text-flex-5 img {
+  margin-top: 1.6rem;
+}
+.text-box-cetagorise {
+  display: flex;
+  flex-direction: column;
+}
+.text-box-cetagorise span {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #151875;
+}
+.text-box-cetagorise img {
+  margin-left: 1rem;
+}
+.text-detalies-section {
+  background-color: #f9f8fe;
+  padding: 3.6rem 0;
+}
+.text-detalies-section h2 {
+  color: #151875;
+  font-size: 2.3rem;
+  line-height: 1.6;
+  font-weight: 600;
+  margin: 1.7rem 0;
+}
+.heading-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6rem;
+  transition: all 0.3s;
+}
+.heading-section h2:not(:first-child) {
+  margin-left: 4.6rem;
+}
+.text-detalies-section p {
+  color: #a9acc6;
+  line-height: 1.6;
+  font-weight: 400;
+  font-size: 1.7rem;
+  letter-spacing: 0.01rem;
+}
+.More-text div {
+  display: flex;
+  align-items: center;
+  margin: 1.6rem 0;
+  gap: 1rem;
+}
+.relative-products-section span {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #151875;
+}
+.as-flex {
+  display: flex;
+  align-items: center;
+  gap: 2.6rem;
+  margin: 1.6rem 0;
+}
+.gird-5 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 3.6rem;
+  align-items: center;
+  justify-content: center;
+}

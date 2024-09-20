@@ -1,0 +1,58 @@
+.order-section {
+  padding: 2.3rem;
+  max-width: 60rem;
+}
+.img-box-7-1 {
+  text-align: left;
+  margin-left: -15.6rem;
+  margin-top: 1.6rem;
+}
+.img-box-7-2 {
+  text-align: center;
+}
+.order-section {
+  margin-top: 10rem;
+}
+.order-section h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #101750;
+  text-align: center;
+  margin: 1.9rem 0;
+}
+.order-section p {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #8d92a7;
+  margin: 1.6rem 0;
+}
+.order-section button {
+  padding: 1rem 1.6rem;
+  background-color: #ff1788;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 1.6rem;
+}
+.btn-7 {
+  text-align: center;
+}
+.relative-box {
+  text-align: right;
+}
+.p-7-text-box {
+  margin-top: -7.6rem;
+}
+.form-img {
+  margin-right: -17rem;
+}
+.border-box {
+  border-bottom: 1px dotted #d2d1d1;
+  border-left: 1px dotted #d2d1d1;
+}

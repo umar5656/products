@@ -345,6 +345,9 @@ header p {
   border-radius: 12px;
   color: #ddd;
 }
+.product-card:hover .card-content h3 {
+  color: #ddd;
+}
 .product-card:hover .card-content span {
   color: #fff;
 }
@@ -499,6 +502,9 @@ header p {
   display: block;
   padding: 0.5rem;
   border-radius: 20px;
+}
+.latest-product-discription span:first-child {
+  border-bottom: 2px solid #eeeffb;
 }
 .offer-section {
   margin-bottom: 14rem;

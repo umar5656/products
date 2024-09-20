@@ -116,9 +116,9 @@ header p {
   justify-content: center;
   align-items: center;
 }
-.shoping {
+/* .shoping {
   margin-left: 1.6rem;
-}
+} */
 .logoin-person,
 .wishlist-heat {
   margin-left: 1.6rem;
@@ -342,7 +342,11 @@ header p {
 .product-card:hover .card-content {
   background-color: var(--primery-color);
   width: 100%;
+  border-radius: 12px;
   color: #ddd;
+}
+.product-card:hover .card-content span {
+  color: #fff;
 }
 .product-img {
   position: relative;
@@ -360,12 +364,19 @@ header p {
   height: 26px;
   display: none;
   transition: all 0.3s;
+
+  border-radius: 20px;
+  padding: 0.5rem;
+}
+.product-icon svg:hover {
+  background-color: #fcd2fa;
 }
 .card-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   transition: all 0.3s;
+  width: 100%;
 }
 .card-content h3 {
   color: #fb2e86;
@@ -377,6 +388,7 @@ header p {
   margin: 1.6rem 0;
   font-size: 1.6rem;
   font-weight: 300;
+  color: #151875;
 }
 .product-cards {
   display: grid;
@@ -470,14 +482,20 @@ header p {
 .latest-product-icon svg {
   width: 26px;
   height: 26px;
-  background-color: #fcd2fa;
   border-radius: 50px;
   color: #7e33e0;
   margin: 1rem 0;
   display: none;
+  padding: 0.5rem;
+  transition: all 0.3s;
+}
+.latest-product-icon svg:hover {
+  background-color: #fcd2fa;
 }
 .latest-product-card:hover .latest-product-icon svg {
   display: block;
+  padding: 0.5rem;
+  border-radius: 20px;
 }
 .offer-section {
   margin-bottom: 14rem;
